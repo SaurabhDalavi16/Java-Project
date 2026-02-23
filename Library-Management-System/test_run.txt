@@ -1,0 +1,134 @@
+This file demonstrates the expected output when running the Library Management System.
+
+To run the application:
+1. Compile: javac *.java
+2. Run: java LibraryManagementSystem
+
+Sample Interactive Session:
+
+==============================================
+   LIBRARY MANAGEMENT SYSTEM
+==============================================
+Welcome to the Library Management System!
+
+MAIN MENU
+---------
+1. Add New Book
+2. View All Books
+3. Search Book
+4. Update Book Details
+5. Delete Book
+6. View Library Statistics
+7. Add Sample Books (for testing)
+8. Exit
+
+Enter your choice (1-8): 7
+
+ADDING SAMPLE BOOKS
+-------------------
+Added: Java Programming
+Added: Data Structures
+Added: Algorithm Design
+Added: Web Development
+Added: Database Systems
+
+Successfully added 5 sample books!
+
+Press Enter to continue...
+
+MAIN MENU
+---------
+1. Add New Book
+2. View All Books
+3. Search Book
+4. Update Book Details
+5. Delete Book
+6. View Library Statistics
+7. Add Sample Books (for testing)
+8. Exit
+
+Enter your choice (1-8): 2
+
+ALL BOOKS
+---------
+Total Books: 5
+----------------------------------------
+1. Book ID: B001 | Title: Java Programming | Author: John Smith | Quantity: 10
+2. Book ID: B002 | Title: Data Structures | Author: Jane Doe | Quantity: 5
+3. Book ID: B003 | Title: Algorithm Design | Author: Robert Johnson | Quantity: 3
+4. Book ID: B004 | Title: Web Development | Author: Emily Brown | Quantity: 8
+5. Book ID: B005 | Title: Database Systems | Author: Michael Wilson | Quantity: 6
+----------------------------------------
+
+Press Enter to continue...
+
+MAIN MENU
+---------
+1. Add New Book
+2. View All Books
+3. Search Book
+4. Update Book Details
+5. Delete Book
+6. View Library Statistics
+7. Add Sample Books (for testing)
+8. Exit
+
+Enter your choice (1-8): 3
+
+SEARCH BOOK
+------------
+Search by:
+1. Book ID
+2. Title
+Enter search option (1-2): 1
+Enter Book ID to search: B001
+Book Found:
+Book ID: B001 | Title: Java Programming | Author: John Smith | Quantity: 10
+
+Press Enter to continue...
+
+MAIN MENU
+---------
+1. Add New Book
+2. View All Books
+3. Search Book
+4. Update Book Details
+5. Delete Book
+6. View Library Statistics
+7. Add Sample Books (for testing)
+8. Exit
+
+Enter your choice (1-8): 6
+
+LIBRARY STATISTICS
+------------------
+Total Books: 5
+Total Quantity: 32
+Books with low quantity (≤5): 2
+  - Data Structures (5 copies)
+  - Algorithm Design (3 copies)
+
+Press Enter to continue...
+
+MAIN MENU
+---------
+1. Add New Book
+2. View All Books
+3. Search Book
+4. Update Book Details
+5. Delete Book
+6. View Library Statistics
+7. Add Sample Books (for testing)
+8. Exit
+
+Enter your choice (1-8): 8
+Thank you for using Library Management System!
+Goodbye!
+
+The application successfully demonstrates:
+- Proper OOP principles (Encapsulation, Inheritance, Polymorphism, Abstraction)
+- Complete CRUD operations
+- Input validation and exception handling
+- Efficient data structures (ArrayList + HashMap)
+- Clean code structure with meaningful variable names
+- Menu-driven interface using do-while loop
